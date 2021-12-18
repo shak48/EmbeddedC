@@ -50,7 +50,7 @@ typedef struct
 #define GPIO_MODE_ANALOG	3
 #define GPIO_MODE_IT_FT		4
 #define GPIO_MODE_IT_RT		5
-#define GPIO_MODE_IT_RFT		6
+#define GPIO_MODE_IT_RFT	6
 
 
 //gpio OUTPUT TUYPE
@@ -164,6 +164,7 @@ void GPIO_Init(GPIO_Handle_t *pGPIOHandle)
 	{
 		if(pGPIOHandle->GPIO_PinConfig.GPIO_PinMode == GPIO_MODE_IT_FT)
 		{
+			//pGPIOHandle->pGPIOx->MODER &= ~(0b00 << (2*pGPIOHandle->GPIO_PinConfig.GPIO_PinNumber));
 			EXTI->FTSR |= (1 << pGPIOHandle->GPIO_PinConfig.GPIO_PinNumber);
 			EXTI->RTSR &= ~(1 << pGPIOHandle->GPIO_PinConfig.GPIO_PinNumber);
 		}
@@ -203,8 +204,6 @@ void GPIO_Init(GPIO_Handle_t *pGPIOHandle)
 		pGPIOHandle->pGPIOx->AFR[temp1] &= ~(0xF << (4*pGPIOHandle->GPIO_PinConfig.GPIO_PinNumber));
 		pGPIOHandle->pGPIOx->AFR[temp1] |= (pGPIOHandle->GPIO_PinConfig.GPIO_PinAltFunMode << (4*temp2));
 	}
-
-
 
 }
 void GPIO_DeInit(GPIO_RegDef_t *pGPIOx){
@@ -285,7 +284,6 @@ void GPIO_IRQInterruptConfig(uint8_t IRQNumber, uint8_t En_Or_Di)
 		if(IRQNumber<=31)
 		{
 			*NVIC_ISER0 |= (1<< IRQNumber);
-			*NVIC_ISER0 |= (1<< 0);
 		}else if(IRQNumber >31 && IRQNumber <64)
 		{
 			*NVIC_ISER1 |= (1<< (IRQNumber%32));
@@ -309,14 +307,14 @@ void GPIO_IRQInterruptConfig(uint8_t IRQNumber, uint8_t En_Or_Di)
 	}
 }
 
-void GPIO_IRQPriorityConfig(uint8_t IRQNumber, uint8_t IRQPriority){
+void GPIO_IRQPriorityConfig(uint8_t IRQNumber, uint32_t IRQPriority){
 
 	uint8_t iprx = IRQNumber/4;
 	uint8_t iprx_section = IRQNumber%4;
 
 	uint8_t shift_amount = (8*iprx_section) + (8- NO_PR_BITS_IMPLEMENTED);
 
-	*(NVIC_PR_BASE_ADDR + (iprx*4)) |= (IRQPriority << shift_amount);
+	*(NVIC_PR_BASE_ADDR + (iprx)) |= (IRQPriority << shift_amount);
 }
 
 
