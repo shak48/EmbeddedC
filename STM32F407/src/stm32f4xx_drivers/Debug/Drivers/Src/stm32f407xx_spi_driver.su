@@ -1,0 +1,3 @@
+stm32f407xx_spi_driver.c:12:6:SPI_PCLK_Control	16	static
+stm32f407xx_spi_driver.c:69:6:SPI_Init	24	static
+stm32f407xx_spi_driver.c:105:6:SPI_SendData	24	static

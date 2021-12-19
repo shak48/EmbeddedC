@@ -1,0 +1,2 @@
+button_interrupt_PA0.c:13:5:main	32	static
+button_interrupt_PA0.c:45:6:EXTI0_IRQHandler	16	static

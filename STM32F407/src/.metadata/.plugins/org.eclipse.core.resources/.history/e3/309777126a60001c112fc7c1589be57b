@@ -1,0 +1,24 @@
+
+
+
+typedef struct
+{
+
+}SPI_RegDef_t;
+
+typedef struct
+{
+	SPI_DviceMode;
+	SPI_BusConfig;
+	SPI_SclkSpeed;
+	SPI_DFF;
+	SPI_CPHA;
+	SPI_CPOL;
+	SPI_SSM;
+}SPI_Config_t;
+
+typedef struct
+{
+	SPI_RegDef_t *pSPIx;
+	SPI_Config_t SPI_Config;
+}SPI_Handle_t;

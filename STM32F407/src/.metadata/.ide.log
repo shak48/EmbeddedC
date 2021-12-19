@@ -1,0 +1,477 @@
+2021-12-17 20:12:30,104 [INFO] Activator:177 - 
+
+
+2021-12-17 20:12:30,106 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-17 20:12:33,568 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-18 14:15:53,913 [INFO] Activator:177 - 
+
+
+2021-12-18 14:15:53,916 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-18 14:15:58,933 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-18 17:44:07,153 [INFO] Activator:177 - 
+
+
+2021-12-18 17:44:07,155 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-18 17:44:17,217 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-19 07:23:23,281 [INFO] Activator:177 - 
+
+
+2021-12-19 07:23:23,284 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-19 07:23:29,958 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-19 08:19:17,092 [INFO] Activator:177 - 
+
+
+2021-12-19 08:19:17,095 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-19 08:19:22,072 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-19 09:15:30,355 [INFO] Activator:177 - 
+
+
+2021-12-19 09:15:30,366 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-19 09:15:36,561 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-19 09:24:15,910 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080.764144074 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:24:15,911 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279.1308965001 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:24:15,912 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848.423388495 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:24:15,913 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520.884234301 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:24:15,914 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648.398366019 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:24:15,915 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857.1906502297 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:24:15,916 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671.2118380607 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:25:23,613 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080.1948692173 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:25:23,614 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279.1789726477 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:25:23,615 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848.840720597 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:25:23,615 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520.1985171914 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:25:23,615 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648.1330814950 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:25:23,616 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857.2116327215 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:25:23,616 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671.620642045 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,932 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.105376581 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,932 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1363214380 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,933 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1867609226 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,934 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1170559437 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,934 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1850786491 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,935 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.681460485 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,935 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.383064363 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,936 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,936 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,937 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,937 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,938 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,938 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,939 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,940 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.90001851 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,941 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1609009587 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,941 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1146373318 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,942 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1915380526 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,942 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1033600561 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,943 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.332146784 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:29:03,943 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.1479733873 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:31,179 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080.413353744 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:31,180 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279.1113997678 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:31,180 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848.539025788 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:31,180 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520.632391046 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:31,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648.1814834436 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:31,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857.1960693593 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:31,181 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671.703464070 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:35,663 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080.1677508727 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:35,664 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279.1335142965 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:35,665 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848.988849399 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:35,665 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520.911038834 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:35,666 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648.1352327918 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:35,666 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857.1535376045 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:37:35,667 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671.682565359 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,383 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.105376581 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,384 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1363214380 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,384 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1867609226 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,385 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1170559437 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,385 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1850786491 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,386 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.681460485 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,386 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.383064363 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,387 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,387 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,388 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,388 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,389 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,389 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,389 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,390 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.90001851 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,390 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1609009587 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,391 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1146373318 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,391 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1915380526 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,392 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1033600561 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,392 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.332146784 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:38:36,392 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.1479733873 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,834 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.105376581 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,835 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1363214380 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,835 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1867609226 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,835 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1170559437 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,836 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1850786491 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,836 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.681460485 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,836 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.383064363 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,837 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.90001851 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,837 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1609009587 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,837 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1146373318 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,838 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1915380526 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,838 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1033600561 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,838 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.332146784 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,838 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.1479733873 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,839 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,839 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,839 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,840 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,840 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,840 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:51:00,841 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,049 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.105376581 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,050 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1363214380 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,050 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1867609226 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,051 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1170559437 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,051 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1850786491 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,052 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.681460485 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,052 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.383064363 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,052 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.90001851 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,053 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1609009587 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,053 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1146373318 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,054 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1915380526 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,054 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1033600561 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,054 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.332146784 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,055 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.1479733873 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,055 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,055 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,056 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,056 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,056 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,057 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:55:12,058 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,271 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.105376581 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,272 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1363214380 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,272 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1867609226 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,273 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1170559437 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,273 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1850786491 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,273 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.681460485 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,273 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.383064363 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,274 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.90001851 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,274 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1609009587 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,274 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1146373318 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,275 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1915380526 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,275 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1033600561 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,276 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.332146784 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,276 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.1479733873 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,277 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.1036695080 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,277 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1136705279 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,278 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.6169848 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,278 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.988928520 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,278 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1701719648 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,279 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.909186857 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 09:58:38,279 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.2030469671 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,727 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.105376581 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,728 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1363214380 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,728 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1867609226 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,729 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1170559437 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,729 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1850786491 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,729 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.681460485 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,730 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.383064363 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,730 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_mcu.550062840.90001851 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,730 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_cpuid.346249176.1609009587 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,730 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_coreid.752996566.1146373318 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,731 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.fpu.1201820682.1915380526 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,731 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.floatabi.1861630406.1033600561 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,731 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.target_board.938010185.332146784 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:14,732 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Option com.st.stm32cube.ide.mcu.gnu.managedbuild.option.defaults.1657425085.1479733873 uses a null category that is invalid in its context. The option was ignored.
+2021-12-19 10:00:52,172 [INFO] Activator:177 - 
+
+
+2021-12-19 10:00:52,174 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-19 10:00:57,269 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-19 10:03:14,820 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2021-12-19 10:03:14,914 [INFO] ApplicationProperties:181 - Using Application install path: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105
+2021-12-19 10:03:14,924 [INFO] DbMcusXml:74 - Set database path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//mcu/
+2021-12-19 10:03:14,926 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/boardmanager/
+2021-12-19 10:03:14,927 [INFO] DbMcus:258 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:14,927 [INFO] DbBoards:264 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:14,929 [INFO] DbExamples:332 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:14,942 [INFO] DbMcusAds:119 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:14,943 [INFO] DbMcusDocs:110 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:14,946 [INFO] DbMcusJson:64 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:14,946 [INFO] DbBoardsDocs:110 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:14,948 [INFO] DbBoardsJson:57 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,084 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/cs/
+2021-12-19 10:03:15,094 [INFO] DbExamplesSqlite:764 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,197 [INFO] RulesReader:57 - Compatibility file has been processed (244 Rules)
+2021-12-19 10:03:15,244 [INFO] DbMcusXml:74 - Set database path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//mcu/
+2021-12-19 10:03:15,245 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/boardmanager/
+2021-12-19 10:03:15,245 [INFO] DbMcus:258 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:15,246 [INFO] DbBoards:264 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:15,246 [INFO] DbExamples:332 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:15,248 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,248 [INFO] DbMcusAds:119 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,248 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,249 [INFO] DbMcusDocs:110 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,249 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,249 [INFO] DbMcusJson:64 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,249 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,249 [INFO] DbBoardsDocs:110 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,249 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,249 [INFO] DbBoardsJson:57 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,249 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,249 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,249 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/cs/
+2021-12-19 10:03:15,249 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,250 [INFO] DbExamplesSqlite:764 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,308 [INFO] MainPanel:220 - HeapMemory: 268435456
+2021-12-19 10:03:15,401 [INFO] DbMcusXml:74 - Set database path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//mcu/
+2021-12-19 10:03:15,401 [INFO] DbBoardsPdsc:56 - Set plugin database path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/boardmanager/
+2021-12-19 10:03:15,401 [INFO] DbMcus:258 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:15,401 [INFO] DbBoards:264 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:15,401 [INFO] DbExamples:332 - Set plugin images path to: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/
+2021-12-19 10:03:15,402 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,402 [INFO] DbMcusAds:119 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,402 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,402 [INFO] DbMcusDocs:110 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,402 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,402 [INFO] DbMcusJson:64 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,402 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,402 [INFO] DbBoardsDocs:110 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,402 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,403 [INFO] DbBoardsJson:57 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,403 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,403 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,403 [INFO] CrossReferenceDbSqlite:196 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/cs/
+2021-12-19 10:03:15,403 [WARN] DbFile:35 - Overriding database path with different value: /home/shak48/.stmcufinder/plugins/mcufinder/ => /home/shak48/.stmcufinder/plugins/mcufinder
+2021-12-19 10:03:15,403 [INFO] DbExamplesSqlite:764 - Set database path to: /home/shak48/.stmcufinder/plugins/mcufinder//mcu/
+2021-12-19 10:03:15,418 [INFO] ApplicationProperties:181 - Using Application install path: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105
+2021-12-19 10:03:15,420 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2021-12-19 10:03:15,421 [INFO] PluginManage:302 - Check plugin analytics
+2021-12-19 10:03:15,479 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-19 10:03:15,521 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2021-12-19 10:03:15,521 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2021-12-19 10:03:15,521 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: 
+2021-12-19 10:03:15,527 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2021-12-19 10:03:15,528 [INFO] PluginManage:302 - Check plugin clock
+2021-12-19 10:03:15,536 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2021-12-19 10:03:15,536 [INFO] PluginManage:302 - Check plugin ddr
+2021-12-19 10:03:15,538 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2021-12-19 10:03:15,538 [INFO] PluginManage:302 - Check plugin filemanager
+2021-12-19 10:03:15,634 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2021-12-19 10:03:15,634 [INFO] PluginManage:302 - Check plugin ipmanager
+2021-12-19 10:03:15,639 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2021-12-19 10:03:15,639 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2021-12-19 10:03:15,646 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2021-12-19 10:03:15,647 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2021-12-19 10:03:15,672 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2021-12-19 10:03:15,672 [INFO] PluginManage:302 - Check plugin power
+2021-12-19 10:03:15,682 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2021-12-19 10:03:15,683 [INFO] PluginManage:302 - Check plugin projectmanager
+2021-12-19 10:03:15,696 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2021-12-19 10:03:15,696 [INFO] PluginManage:302 - Check plugin thirdparty
+2021-12-19 10:03:15,785 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2021-12-19 10:03:15,786 [INFO] PluginManage:352 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2021-12-19 10:03:15,786 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2021-12-19 10:03:15,786 [INFO] PluginManage:302 - Check plugin tools
+2021-12-19 10:03:15,789 [INFO] PluginManage:352 - Loaded plugin tools (category:base,tabindex:7)
+2021-12-19 10:03:15,789 [INFO] PluginManage:302 - Check plugin tutovideos
+2021-12-19 10:03:15,789 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [1/15]
+2021-12-19 10:03:15,966 [INFO] PluginManage:352 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2021-12-19 10:03:15,966 [INFO] PluginManage:302 - Check plugin updater
+2021-12-19 10:03:15,979 [INFO] PluginManage:352 - Loaded plugin updater (category:base,tabindex:12)
+2021-12-19 10:03:15,979 [INFO] PluginManage:275 - PluginManage : Loaded plugins [13]
+2021-12-19 10:03:16,158 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2021-12-19 10:03:16,228 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,229 [INFO] PluginManager:213 - loadIPPluginJar : add usbx
+2021-12-19 10:03:16,231 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,231 [INFO] PluginManager:213 - loadIPPluginJar : add openamp
+2021-12-19 10:03:16,234 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,234 [INFO] PluginManager:213 - loadIPPluginJar : add gtzc
+2021-12-19 10:03:16,236 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,237 [INFO] PluginManager:213 - loadIPPluginJar : add dfsdm
+2021-12-19 10:03:16,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,239 [INFO] PluginManager:213 - loadIPPluginJar : add gfxmmu
+2021-12-19 10:03:16,243 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,244 [INFO] PluginManager:213 - loadIPPluginJar : add nvic
+2021-12-19 10:03:16,252 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,253 [INFO] PluginManager:213 - loadIPPluginJar : add mdma
+2021-12-19 10:03:16,254 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,255 [INFO] PluginManager:213 - loadIPPluginJar : add genericplugin
+2021-12-19 10:03:16,256 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,257 [INFO] PluginManager:213 - loadIPPluginJar : add ltdc
+2021-12-19 10:03:16,259 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,259 [INFO] PluginManager:213 - loadIPPluginJar : add spi
+2021-12-19 10:03:16,265 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,265 [INFO] PluginManager:213 - loadIPPluginJar : add gpio
+2021-12-19 10:03:16,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,269 [INFO] PluginManager:213 - loadIPPluginJar : add sai
+2021-12-19 10:03:16,275 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,275 [INFO] PluginManager:213 - loadIPPluginJar : add stm32_wpan
+2021-12-19 10:03:16,281 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,285 [INFO] PluginManager:213 - loadIPPluginJar : add plateformsettings
+2021-12-19 10:03:16,287 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,287 [INFO] PluginManager:213 - loadIPPluginJar : add tim
+2021-12-19 10:03:16,289 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,289 [INFO] PluginManager:213 - loadIPPluginJar : add i2c
+2021-12-19 10:03:16,291 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,291 [INFO] PluginManager:213 - loadIPPluginJar : add tracer_emb
+2021-12-19 10:03:16,292 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,293 [INFO] PluginManager:213 - loadIPPluginJar : add hash
+2021-12-19 10:03:16,294 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,294 [INFO] PluginManager:213 - loadIPPluginJar : add quadspi
+2021-12-19 10:03:16,300 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,300 [INFO] PluginManager:213 - loadIPPluginJar : add linkedlist
+2021-12-19 10:03:16,302 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,302 [INFO] PluginManager:213 - loadIPPluginJar : add lorawan
+2021-12-19 10:03:16,307 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,307 [INFO] PluginManager:213 - loadIPPluginJar : add dma
+2021-12-19 10:03:16,309 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,309 [INFO] PluginManager:213 - loadIPPluginJar : add ucpd
+2021-12-19 10:03:16,312 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,312 [INFO] PluginManager:213 - loadIPPluginJar : add opamp
+2021-12-19 10:03:16,316 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,316 [INFO] PluginManager:213 - loadIPPluginJar : add ipddr
+2021-12-19 10:03:16,319 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,319 [INFO] PluginManager:213 - loadIPPluginJar : add i2s
+2021-12-19 10:03:16,320 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,320 [INFO] PluginManager:213 - loadIPPluginJar : add comp
+2021-12-19 10:03:16,322 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,323 [INFO] PluginManager:213 - loadIPPluginJar : add touchsensing
+2021-12-19 10:03:16,324 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,324 [INFO] PluginManager:213 - loadIPPluginJar : add tsc
+2021-12-19 10:03:16,327 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,327 [INFO] PluginManager:213 - loadIPPluginJar : add gic
+2021-12-19 10:03:16,328 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,328 [INFO] PluginManager:213 - loadIPPluginJar : add fatfs
+2021-12-19 10:03:16,331 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,331 [INFO] PluginManager:213 - loadIPPluginJar : add fmc
+2021-12-19 10:03:16,348 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,348 [INFO] PluginManager:213 - loadIPPluginJar : add can
+2021-12-19 10:03:16,354 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,354 [INFO] PluginManager:213 - loadIPPluginJar : add freertos
+2021-12-19 10:03:16,359 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,359 [INFO] PluginManager:213 - loadIPPluginJar : add adc
+2021-12-19 10:03:16,363 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,363 [INFO] PluginManager:213 - loadIPPluginJar : add resmgrutility
+2021-12-19 10:03:16,365 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,365 [INFO] PluginManager:213 - loadIPPluginJar : add dma3
+2021-12-19 10:03:16,366 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,366 [INFO] PluginManager:213 - loadIPPluginJar : add ts
+2021-12-19 10:03:16,368 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,369 [INFO] PluginManager:213 - loadIPPluginJar : add usart
+2021-12-19 10:03:16,370 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,371 [INFO] PluginManager:213 - loadIPPluginJar : add aes
+2021-12-19 10:03:16,373 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,373 [INFO] PluginManager:213 - loadIPPluginJar : add pdm2pcm
+2021-12-19 10:03:16,375 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2021-12-19 10:03:16,375 [INFO] PluginManager:213 - loadIPPluginJar : add cryp
+2021-12-19 10:03:16,664 [FATAL] Updater:294 - Updater called before beeing initialized
+2021-12-19 10:03:16,740 [FATAL] Updater:294 - Updater called before beeing initialized
+2021-12-19 10:03:16,747 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 02:55:09 EDT 2021 (1632984909265)
+2021-12-19 10:03:16,747 [FATAL] Updater:294 - Updater called before beeing initialized
+2021-12-19 10:03:16,786 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-12-19 10:03:16,868 [FATAL] Updater:294 - Updater called before beeing initialized
+2021-12-19 10:03:16,870 [FATAL] Updater:294 - Updater called before beeing initialized
+2021-12-19 10:03:16,870 [FATAL] Updater:294 - Updater called before beeing initialized
+2021-12-19 10:03:16,870 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2021-12-19 10:03:16,871 [FATAL] Updater:294 - Updater called before beeing initialized
+2021-12-19 10:03:16,904 [INFO] Updater:1018 - Updater Version found : 6.4.0
+2021-12-19 10:03:16,917 [INFO] ApplicationProperties:181 - Using Application install path: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105
+2021-12-19 10:03:17,325 [INFO] MainUpdater:2729 - connection check result : 10
+2021-12-19 10:03:17,326 [INFO] MainUpdater:276 - Updater Check For Update Now.
+2021-12-19 10:03:17,327 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2021-12-19 10:03:17,483 [INFO] CheckServerUpdateThread:115 - End of CheckServer Thread
+2021-12-19 10:03:17,543 [INFO] MainUpdater:2729 - connection check result : 10
+2021-12-19 10:03:17,909 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2021-12-19 10:03:17,966 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: /home/shak48/.stmcufinder/plugins/mcufinder/mcu/cs_comparisons_mx
+2021-12-19 10:03:17,972 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2021-12-19 10:03:17,974 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2021-12-19 10:03:17,975 [INFO] DbMcusXml:100 - Load MCU database from /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//mcu/families.xml
+2021-12-19 10:03:18,837 [INFO] DbMcusJson:93 - JSON generation date=Tue Nov 16 11:17:54 EST 2021 (1637079474)
+2021-12-19 10:03:19,009 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.2
+2021-12-19 10:03:19,017 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.2
+2021-12-19 10:03:19,040 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.3
+2021-12-19 10:03:19,095 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0
+2021-12-19 10:03:19,143 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.0.0
+2021-12-19 10:03:19,167 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.2.0.0
+2021-12-19 10:03:19,225 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.2.0
+2021-12-19 10:03:19,243 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.2.1
+2021-12-19 10:03:19,247 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.18.1
+2021-12-19 10:03:19,249 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.18.0
+2021-12-19 10:03:19,251 [WARN] PackLoader:238 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.0.0
+2021-12-19 10:03:19,259 [WARN] PackLoader:238 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2021-12-19 10:03:19,318 [WARN] PackLoader:238 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2021-12-19 10:03:19,455 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.0.0
+2021-12-19 10:03:19,478 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2021-12-19 10:03:19,515 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2021-12-19 10:03:19,535 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.0.0
+2021-12-19 10:03:19,601 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.1.0
+2021-12-19 10:03:19,871 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2021-12-19 10:03:19,875 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.0.0
+2021-12-19 10:03:19,894 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2021-12-19 10:03:19,902 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.0
+2021-12-19 10:03:19,922 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2021-12-19 10:03:19,928 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.0.0
+2021-12-19 10:03:19,929 [INFO] ThirdParty:925 - Integrity check success = true
+2021-12-19 10:03:19,930 [INFO] IntegrityCheckThread:94 - exiting critical section [integrity check]
+2021-12-19 10:03:19,931 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2021-12-19 10:03:20,336 [INFO] DbMcus:175 - Found 1960 MCUs (1912 are supported by CubeMX, 1912 are visible in CubeMX)
+2021-12-19 10:03:20,340 [INFO] ApiDb:251 - Load user favorites file /home/shak48/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-12-19 10:03:20,340 [INFO] ApiDb:255 - User favorites MCUs=[]
+2021-12-19 10:03:20,340 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2021-12-19 10:03:20,885 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2021-12-19 10:03:20,897 [INFO] DetailPanel:310 - Set advertising image to /home/shak48/STM32Cube/Repository//en.Prom_NBSTM32U50921.jpg
+2021-12-19 10:03:21,278 [INFO] MultiScanPanel:799 - Auto Refresh Data is not needed
+2021-12-19 10:03:21,360 [INFO] DbBoardsPdsc:90 - Found 48 items
+2021-12-19 10:03:21,363 [INFO] DbBoardsPdsc:90 - Found 26 items
+2021-12-19 10:03:21,365 [INFO] DbBoardsPdsc:90 - Found 5 items
+2021-12-19 10:03:21,372 [INFO] DbBoardsPdsc:90 - Found 43 items
+2021-12-19 10:03:21,374 [INFO] DbBoardsPdsc:90 - Found 2 items
+2021-12-19 10:03:21,375 [INFO] DbBoardsPdsc:90 - Found 1 items
+2021-12-19 10:03:21,380 [INFO] DbBoardsPdsc:90 - Found 33 items
+2021-12-19 10:03:21,382 [INFO] DbBoardsPdsc:90 - Found 9 items
+2021-12-19 10:03:21,385 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2021-12-19 10:03:21,385 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2021-12-19 10:03:21,388 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2021-12-19 10:03:21,388 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2021-12-19 10:03:21,388 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2021-12-19 10:03:21,388 [WARN] DbBoardsPdsc:254 - Board STM32U575I-EV: unknown feature type=joystick, name=, username=4-direction joystick with selection button, n=1
+2021-12-19 10:03:21,407 [INFO] DbBoardsJson:86 - JSON generation date=Tue Nov 16 11:17:54 EST 2021 (1637079474)
+2021-12-19 10:03:21,413 [INFO] DbBoards:117 - Found 167 boards (164 are supported by CubeMX)
+2021-12-19 10:03:21,415 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Nov 16 11:17:54 EST 2021 (1637079474)
+2021-12-19 10:03:21,419 [INFO] DbBoardsDocs:79 - Found 209 boards documents
+2021-12-19 10:03:21,420 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2021-12-19 10:03:21,421 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2021-12-19 10:03:21,422 [WARN] DbBoards:127 - board STM32439I-EVAL2 has no document id list !
+2021-12-19 10:03:21,423 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2021-12-19 10:03:21,424 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2021-12-19 10:03:21,424 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2021-12-19 10:03:21,425 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2021-12-19 10:03:21,425 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2021-12-19 10:03:21,425 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2021-12-19 10:03:21,425 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2021-12-19 10:03:22,710 [ERROR] DbBoards:189 - Image file not found for board STM32U575I-EV: /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.common.mx_6.4.0.202111222105//db//plugins/mcufinder/images/boards/stm32u575i-ev_small.jpg
+2021-12-19 10:03:22,761 [INFO] ApiDb:251 - Load user favorites file /home/shak48/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2021-12-19 10:03:22,761 [INFO] ApiDb:255 - User favorites Boards=[]
+2021-12-19 10:03:22,761 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2021-12-19 10:03:26,046 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2021-12-19 10:03:26,114 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2021-12-19 10:03:26,114 [INFO] DetailPanel:310 - Set advertising image to /home/shak48/STM32Cube/Repository//en.Prom_NBSTM32U50921.jpg
+2021-12-19 10:03:26,154 [INFO] MultiScanPanel:799 - Auto Refresh Data is not needed
+2021-12-19 10:03:50,522 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2021-12-19 10:03:50,532 [INFO] ApiDb:276 - Save user favorites file /home/shak48/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2021-12-19 10:03:50,532 [INFO] ApiDb:280 - User favorites MCUs=[]
+2021-12-19 10:03:50,534 [INFO] ApiDb:276 - Save user favorites file /home/shak48/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2021-12-19 10:03:50,534 [INFO] ApiDb:280 - User favorites Boards=[]
+2021-12-19 10:41:02,000 [INFO] Activator:177 - 
+
+
+2021-12-19 10:41:02,002 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-19 10:41:11,616 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2021-12-19 16:17:06,274 [INFO] Activator:177 - 
+
+
+2021-12-19 16:17:06,279 [INFO] Activator:178 - !SESSION log4j initialized
+2021-12-19 16:17:17,897 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
