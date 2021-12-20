@@ -49,9 +49,4 @@ void EXTI0_IRQHandler(void)
 	GPIO_ToggleOutputPin(GPIOD, GPOIO_PIN_NO_12);
 }
 
-<<<<<<< HEAD
-//fit push
-=======
 
-//button
->>>>>>> 33bb0b5bd4efded63e86bb1d6518fc5c865590f4
