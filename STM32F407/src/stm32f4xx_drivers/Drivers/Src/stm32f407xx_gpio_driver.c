@@ -74,6 +74,8 @@ void GPIO_PCLK_Control(GPIO_RegDef_t *pGPIOx, uint8_t En_Or_Di)
 
 void GPIO_Init(GPIO_Handle_t *pGPIOHandle)
 {
+	//enable peri clk
+	GPIO_PCLK_Control(pGPIOHandle->pGPIOx, ENABLE);
 	uint32_t temp=0;
 	if(pGPIOHandle->GPIO_PinConfig.GPIO_PinMode <= GPIO_MODE_ANALOG){
 		temp = (pGPIOHandle->GPIO_PinConfig.GPIO_PinMode << (2*pGPIOHandle->GPIO_PinConfig.GPIO_PinNumber));
