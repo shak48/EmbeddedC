@@ -54,14 +54,15 @@ void SPI2_Inits(void)
 
 
 int main(void){
-	char usrData[]= "Hellowww World";
+	char usrData[]= "Hellow World";
 
 	SPI2_GPIOInit();
 
-	SPI_Peri_Control(SPI2, ENABLE);
-
-	SPI_SSM_Control(SPI2, ENABLE);
 	SPI2_Inits();
+
+	SPI_SSI_Control(SPI2, ENABLE);
+
+	SPI_Peri_Control(SPI2, ENABLE);
 
 	SPI_SendData(SPI2, (uint8_t*)usrData, strlen(usrData));
 
