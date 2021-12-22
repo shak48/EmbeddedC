@@ -4,6 +4,8 @@
 #include "stm32f407xx_gpio_driver.h"
 #include "stm32f407xx_spi_driver.h"
 
+
+
 //PB14 SPI2 MISO
 //PB15 SPI2 MOSI
 //PB13 SPI2 SCLK
@@ -16,6 +18,7 @@ void SPI2_GPIOInit(void)
 
 	SPIPins.pGPIOx = GPIOB;
 	SPIPins.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_ALTFN;
+	SPIPins.GPIO_PinConfig.GPIO_PinMode=5;
 	SPIPins.GPIO_PinConfig.GPIO_PinOptType = GPIO_OP_MODE_PP;
 	SPIPins.GPIO_PinConfig.GPIO_PinPuPdControl = GPIO_NO_PUPD;
 	SPIPins.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_FAST;
@@ -31,8 +34,8 @@ void SPI2_GPIOInit(void)
 	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPOIO_PIN_NO_14;
 	GPIO_Init(&SPIPins);
 	//NSS
-	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPOIO_PIN_NO_12;
-	GPIO_Init(&SPIPins);
+	//SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPOIO_PIN_NO_12;
+	//GPIO_Init(&SPIPins);
 }
 
 void SPI2_Inits(void)
@@ -52,9 +55,25 @@ void SPI2_Inits(void)
 	SPI_Init(&SPI2Handle);
 }
 
-
+void delay(uint32_t cycles)
+{
+	for(uint32_t i =0; i<cycles; i++);
+}
 int main(void){
 	char usrData[]= "Hellow World";
+
+
+	GPIO_Handle_t GpioLedGreen;
+
+	GpioLedGreen.pGPIOx = GPIOD;
+	GpioLedGreen.GPIO_PinConfig.GPIO_PinNumber = GPOIO_PIN_NO_12;
+	GpioLedGreen.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_OUT;
+	GpioLedGreen.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_LOW;
+	GpioLedGreen.GPIO_PinConfig.GPIO_PinOptType = GPIO_OP_MODE_PP;
+	GpioLedGreen.GPIO_PinConfig.GPIO_PinPuPdControl = GPIO_NO_PUPD;
+
+	GPIO_PCLK_Control(GPIOD, ENABLE);
+	GPIO_Init(&GpioLedGreen);
 
 	SPI2_GPIOInit();
 
@@ -66,6 +85,10 @@ int main(void){
 
 	SPI_SendData(SPI2, (uint8_t*)usrData, strlen(usrData));
 
-	for(;;);
+	for(;;)
+	{
+		SPI_SendData(SPI2, (uint8_t*)usrData, strlen(usrData));
+		delay(900000);
+	}
 }
 
