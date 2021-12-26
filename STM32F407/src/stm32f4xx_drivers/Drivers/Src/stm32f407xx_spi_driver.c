@@ -8,6 +8,8 @@
 #include "stm32f407xx_spi_driver.h"
 
 
+
+
 // init deinit
 void SPI_PCLK_Control(SPI_RegDef_t *pSPIx, uint8_t En_Or_Di)
 {
@@ -75,17 +77,24 @@ void SPI_Init(SPI_Handle_t *pSPIHandle)
 	//bus config
 	if(pSPIHandle->SPI_Config.SPI_BusConfig == SPI_BUS_CONFIG_FD)
 	{
-		temp &= ~(1<<15);
-	}else if(pSPIHandle->SPI_Config.SPI_BusConfig == SPI_BUS_CONFIG_HD)
+		temp &= ~(1<<SPI_CR1_BIDIMODE);
+	}
+	else if(pSPIHandle->SPI_Config.SPI_BusConfig == SPI_BUS_CONFIG_HD)
 	{
-		temp |= (1<<15);
-	}else if(pSPIHandle->SPI_Config.SPI_BusConfig == SPI_BUS_CONFIG_SIPLEX_RX_ONLY)
+		temp |= (1<<SPI_CR1_BIDIMODE);
+	}
+	else if(pSPIHandle->SPI_Config.SPI_BusConfig == SPI_BUS_CONFIG_SIPLEX_RX_ONLY)
 	{
-		temp &= ~(1<<15);
-		temp |= (1<<10);
+		temp &= (1<<SPI_CR1_BIDIMODE);
+		temp &= ~(1<<SPI_CR1_BIDIOE);
+	}
+	else if(pSPIHandle->SPI_Config.SPI_BusConfig == SPI_BUS_CONFIG_SIPLEX_TX_ONLY)
+	{
+		temp &= (~1<<SPI_CR1_BIDIMODE);
+		temp &= (1<<SPI_CR1_BIDIOE);
 	}
 
-	temp |= pSPIHandle->SPI_Config.SPI_SclkSpeed <<3;
+	temp |= pSPIHandle->SPI_Config.SPI_SclkSpeed <<SPI_CR1_BR;
 
 	temp |= pSPIHandle->SPI_Config.SPI_DFF <<SPI_CR1_DFF;
 
@@ -139,6 +148,31 @@ void SPI_SendData(SPI_RegDef_t *pSPIx, uint8_t *pTxBuffer, uint32_t Len)
 	}
 }
 
+
+//data RX TX
+
+//this is blocking blocking// polling
+void SPI_ReceiveData(SPI_RegDef_t *pSPIx,uint8_t *pRxBuffer, uint32_t Len)
+{
+	while(Len >0)
+	{
+		while(SPI_GetFlagStatus(pSPIx, SPI_RXE_FLAG) == FLAG_SET);
+
+		if((pSPIx->CR1 & (1<<SPI_CR1_DFF)))
+		{
+			*((uint16_t*)(pRxBuffer)) = pSPIx->DR;
+			Len--;
+			Len--;
+			(uint16_t*)pRxBuffer++;
+		}else
+		{
+			*pRxBuffer=pSPIx->DR;
+			Len--;
+			pRxBuffer++;
+		}
+	}
+}
+
 void SPI_Peri_Control(SPI_RegDef_t *pSPIx, uint8_t En_Or_Di)
 {
 	if(En_Or_Di == ENABLE)
@@ -161,7 +195,19 @@ void SPI_SSI_Control(SPI_RegDef_t *pSPIx, uint8_t En_Or_Di)
 	}
 }
 
-void SPI_ReceiveData(SPI_RegDef_t *pSPIx,uint8_t *pRxBuffer, uint32_t Len);
+void SPI_SSOE_Control(SPI_RegDef_t *pSPIx, uint8_t En_Or_Di)
+{
+	if(En_Or_Di == ENABLE)
+	{
+		pSPIx->CR2 |= (1 << SPI_CR2_SSOE);
+	}else
+	{
+		pSPIx->CR2 &= ~(1 << SPI_CR2_SSOE);
+	}
+}
+
+
+
 
 //IRQ config
 
