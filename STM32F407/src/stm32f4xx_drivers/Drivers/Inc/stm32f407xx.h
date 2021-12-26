@@ -248,6 +248,8 @@ typedef struct
 #define SPI_BUS_CONFIG_FD 				1
 #define SPI_BUS_CONFIG_HD 				2
 #define SPI_BUS_CONFIG_SIPLEX_RX_ONLY 	3
+#define SPI_BUS_CONFIG_SIPLEX_TX_ONLY 	4
+
 
 //SPI Sclk
 #define SPI_SCLK_SPEED_DIV2				0
