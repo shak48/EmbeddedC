@@ -1,0 +1,51 @@
+!SESSION 2021-12-27 17:25:14.375 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/shak48/Documents/local-repo/EmbeddedC/STM32F407 -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-12-27 17:25:18.480
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-12-27 17:25:18.520
+!MESSAGE Log4j initialized with config file /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-12-27 17:25:21.365
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-27 17:25:59.963
+!MESSAGE Indexed '008Input' (3 sources, 0 headers) in 0.576 sec: 82 declarations; 69 references; 11 unresolved inclusions; 0 syntax errors; 40 unresolved names (21%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-27 17:26:00.130
+!MESSAGE Indexed '009LED_Toggle_Bitfield' (4 sources, 2 headers) in 0.115 sec: 171 declarations; 97 references; 12 unresolved inclusions; 0 syntax errors; 110 unresolved names (29%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-27 17:26:00.433
+!MESSAGE Indexed 'stm32f4xx_drivers' (8 sources, 7 headers) in 0.266 sec: 343 declarations; 1,660 references; 21 unresolved inclusions; 0 syntax errors; 172 unresolved names (7.9%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-27 17:26:00.468
+!MESSAGE Indexed '007LED1' (3 sources, 0 headers) in 0.027 sec: 75 declarations; 61 references; 11 unresolved inclusions; 0 syntax errors; 35 unresolved names (20%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-27 17:26:00.522
+!MESSAGE Indexed '004_PeriClock2' (3 sources, 0 headers) in 0.04 sec: 69 declarations; 44 references; 11 unresolved inclusions; 0 syntax errors; 35 unresolved names (24%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-27 17:26:03.585
+!MESSAGE Indexed '001HellowWorld' (3 sources, 55 headers) in 0.991 sec: 2,114 declarations; 2,956 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.039%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-12-27 17:26:04.401
+!MESSAGE Indexed '011_Interrupt_test' (3 sources, 53 headers) in 0.357 sec: 1,966 declarations; 2,818 references; 0 unresolved inclusions; 4 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2021-12-27 17:27:19.162 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/shak48/Documents/local-repo/EmbeddedC/STM32F407 -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-12-27 17:27:22.879
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-12-27 17:27:22.928
+!MESSAGE Log4j initialized with config file /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-12-27 17:27:27.835
+!MESSAGE Started RMI Server, listening on port 41337
