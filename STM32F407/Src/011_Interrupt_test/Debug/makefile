@@ -59,8 +59,8 @@ all: main-build
 main-build: 011_Interrupt_test.elf secondary-outputs
 
 # Tool invocations
-011_Interrupt_test.elf: $(OBJS) $(USER_OBJS) /home/shak48/Documents/shak48-repos/EmbeddedC/STM32F407/src/011_Interrupt_test/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "011_Interrupt_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/shak48/Documents/shak48-repos/EmbeddedC/STM32F407/src/011_Interrupt_test/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="011_Interrupt_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+011_Interrupt_test.elf: $(OBJS) $(USER_OBJS) /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/011_Interrupt_test/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "011_Interrupt_test.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/011_Interrupt_test/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="011_Interrupt_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

@@ -197,7 +197,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
  .debug_macro   0x0000000000000000       0xce ./Src/syscalls.o
  .debug_line    0x0000000000000000      0x7d0 ./Src/syscalls.o
- .debug_str     0x0000000000000000     0x8efc ./Src/syscalls.o
+ .debug_str     0x0000000000000000     0x8efa ./Src/syscalls.o
  .comment       0x0000000000000000       0x54 ./Src/syscalls.o
  .debug_frame   0x0000000000000000      0x2ac ./Src/syscalls.o
  .ARM.attributes
@@ -259,7 +259,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Src/sysmem.o
  .debug_macro   0x0000000000000000      0x1df ./Src/sysmem.o
  .debug_line    0x0000000000000000      0x4c6 ./Src/sysmem.o
- .debug_str     0x0000000000000000     0x62cf ./Src/sysmem.o
+ .debug_str     0x0000000000000000     0x62cd ./Src/sysmem.o
  .comment       0x0000000000000000       0x54 ./Src/sysmem.o
  .debug_frame   0x0000000000000000       0x34 ./Src/sysmem.o
  .ARM.attributes
@@ -277,8 +277,8 @@ Discarded input sections
                 0x0000000000000000       0x18 ./drivers/src/source.o
  .debug_macro   0x0000000000000000       0x1b ./drivers/src/source.o
  .debug_macro   0x0000000000000000      0xab4 ./drivers/src/source.o
- .debug_line    0x0000000000000000       0xa1 ./drivers/src/source.o
- .debug_str     0x0000000000000000     0x2df6 ./drivers/src/source.o
+ .debug_line    0x0000000000000000       0x9f ./drivers/src/source.o
+ .debug_str     0x0000000000000000     0x2df4 ./drivers/src/source.o
  .comment       0x0000000000000000       0x54 ./drivers/src/source.o
  .ARM.attributes
                 0x0000000000000000       0x39 ./drivers/src/source.o
@@ -698,15 +698,15 @@ LOAD /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
  .debug_macro   0x0000000000001b77       0x16 ./Src/main.o
  .debug_macro   0x0000000000001b8d      0x145 ./Src/main.o
 
-.debug_line     0x0000000000000000      0x780
- .debug_line    0x0000000000000000      0x6fc ./Src/main.o
- .debug_line    0x00000000000006fc       0x84 ./Startup/startup_stm32f407vgtx.o
+.debug_line     0x0000000000000000      0x77c
+ .debug_line    0x0000000000000000      0x6f8 ./Src/main.o
+ .debug_line    0x00000000000006f8       0x84 ./Startup/startup_stm32f407vgtx.o
 
-.debug_str      0x0000000000000000     0x8114
- .debug_str     0x0000000000000000     0x80e3 ./Src/main.o
-                                       0x834c (size before relaxing)
- .debug_str     0x00000000000080e3       0x31 ./Startup/startup_stm32f407vgtx.o
-                                         0x8a (size before relaxing)
+.debug_str      0x0000000000000000     0x8112
+ .debug_str     0x0000000000000000     0x80e1 ./Src/main.o
+                                       0x834a (size before relaxing)
+ .debug_str     0x00000000000080e1       0x31 ./Startup/startup_stm32f407vgtx.o
+                                         0x88 (size before relaxing)
 
 .comment        0x0000000000000000       0x53
  .comment       0x0000000000000000       0x53 ./Src/main.o

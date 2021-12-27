@@ -59,8 +59,8 @@ all: main-build
 main-build: 004_PeriClock2.elf secondary-outputs
 
 # Tool invocations
-004_PeriClock2.elf: $(OBJS) $(USER_OBJS) /home/shak48/Documents/shak48-repos/EmbeddedC/STM32F407/src/004_PeriClock2/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "004_PeriClock2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/shak48/Documents/shak48-repos/EmbeddedC/STM32F407/src/004_PeriClock2/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="004_PeriClock2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+004_PeriClock2.elf: $(OBJS) $(USER_OBJS) /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/004_PeriClock2/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "004_PeriClock2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/004_PeriClock2/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="004_PeriClock2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

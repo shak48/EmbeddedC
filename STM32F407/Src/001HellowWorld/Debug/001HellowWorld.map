@@ -1001,15 +1001,15 @@ LOAD /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
  .debug_line    0x0000000000000d70      0x4c6 ./Src/sysmem.o
  .debug_line    0x0000000000001236       0x84 ./Startup/startup_stm32f407vgtx.o
 
-.debug_str      0x0000000000000000     0x9703
- .debug_str     0x0000000000000000     0x7f4a ./Src/main.o
-                                       0x81bc (size before relaxing)
- .debug_str     0x0000000000007f4a     0x1722 ./Src/syscalls.o
-                                       0x8f74 (size before relaxing)
- .debug_str     0x000000000000966c       0x66 ./Src/sysmem.o
-                                       0x628c (size before relaxing)
- .debug_str     0x00000000000096d2       0x31 ./Startup/startup_stm32f407vgtx.o
-                                         0x82 (size before relaxing)
+.debug_str      0x0000000000000000     0x9701
+ .debug_str     0x0000000000000000     0x7f48 ./Src/main.o
+                                       0x81ba (size before relaxing)
+ .debug_str     0x0000000000007f48     0x1722 ./Src/syscalls.o
+                                       0x8f72 (size before relaxing)
+ .debug_str     0x000000000000966a       0x66 ./Src/sysmem.o
+                                       0x628a (size before relaxing)
+ .debug_str     0x00000000000096d0       0x31 ./Startup/startup_stm32f407vgtx.o
+                                         0x80 (size before relaxing)
 
 .comment        0x0000000000000000       0x53
  .comment       0x0000000000000000       0x53 ./Src/main.o

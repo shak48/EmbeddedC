@@ -159,7 +159,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x16 ./Src/syscalls.o
  .debug_macro   0x0000000000000000       0xce ./Src/syscalls.o
  .debug_line    0x0000000000000000      0x7d0 ./Src/syscalls.o
- .debug_str     0x0000000000000000     0x8ef4 ./Src/syscalls.o
+ .debug_str     0x0000000000000000     0x8ef2 ./Src/syscalls.o
  .comment       0x0000000000000000       0x54 ./Src/syscalls.o
  .debug_frame   0x0000000000000000      0x2ac ./Src/syscalls.o
  .ARM.attributes
@@ -221,7 +221,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0x6a ./Src/sysmem.o
  .debug_macro   0x0000000000000000      0x1df ./Src/sysmem.o
  .debug_line    0x0000000000000000      0x4c6 ./Src/sysmem.o
- .debug_str     0x0000000000000000     0x62c7 ./Src/sysmem.o
+ .debug_str     0x0000000000000000     0x62c5 ./Src/sysmem.o
  .comment       0x0000000000000000       0x54 ./Src/sysmem.o
  .debug_frame   0x0000000000000000       0x34 ./Src/sysmem.o
  .ARM.attributes
@@ -608,11 +608,11 @@ LOAD /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.g
  .debug_line    0x0000000000000000      0x36b ./Src/main.o
  .debug_line    0x000000000000036b       0x84 ./Startup/startup_stm32f407vgtx.o
 
-.debug_str      0x0000000000000000     0x3cc9
- .debug_str     0x0000000000000000     0x3c98 ./Src/main.o
-                                       0x3dfc (size before relaxing)
- .debug_str     0x0000000000003c98       0x31 ./Startup/startup_stm32f407vgtx.o
-                                         0x82 (size before relaxing)
+.debug_str      0x0000000000000000     0x3cc7
+ .debug_str     0x0000000000000000     0x3c96 ./Src/main.o
+                                       0x3dfa (size before relaxing)
+ .debug_str     0x0000000000003c96       0x31 ./Startup/startup_stm32f407vgtx.o
+                                         0x80 (size before relaxing)
 
 .comment        0x0000000000000000       0x53
  .comment       0x0000000000000000       0x53 ./Src/main.o

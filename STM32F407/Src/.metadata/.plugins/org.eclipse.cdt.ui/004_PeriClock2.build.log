@@ -1,4 +1,4 @@
-10:40:20 **** Incremental Build of configuration Debug for project 004_PeriClock2 ****
+18:09:08 **** Incremental Build of configuration Debug for project 004_PeriClock2 ****
 make -j8 all 
 arm-none-eabi-size   004_PeriClock2.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   004_PeriClock2.elf
 Finished building: default.size.stdout
  
 
-10:40:20 Build Finished. 0 errors, 0 warnings. (took 467ms)
+18:09:08 Build Finished. 0 errors, 0 warnings. (took 414ms)
 

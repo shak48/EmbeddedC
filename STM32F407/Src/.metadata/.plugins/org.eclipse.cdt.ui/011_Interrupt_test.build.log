@@ -1,21 +1,10 @@
-17:35:41 **** Incremental Build of configuration Debug for project 011_Interrupt_test ****
+18:09:10 **** Incremental Build of configuration Debug for project 011_Interrupt_test ****
 make -j8 all 
-arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
-../Src/main.c: In function 'main':
-../Src/main.c:6:26: error: expected ')' before ';' token
-    6 | #define GPIOA 0x40020000U;
-      |                          ^
-../Src/main.c:13:38: note: in expansion of macro 'GPIOA'
-   13 |  int32_t *pGPIOA_PUPDR = (int32_t*) (GPIOA+0x30);
-      |                                      ^~~~~
-../Src/main.c:13:37: note: to match this '('
-   13 |  int32_t *pGPIOA_PUPDR = (int32_t*) (GPIOA+0x30);
-      |                                     ^
-../Src/main.c:13:11: warning: unused variable 'pGPIOA_PUPDR' [-Wunused-variable]
-   13 |  int32_t *pGPIOA_PUPDR = (int32_t*) (GPIOA+0x30);
-      |           ^~~~~~~~~~~~
-make: *** [Src/subdir.mk:25: Src/main.o] Error 1
-"make -j8 all" terminated with exit code 2. Build might be incomplete.
+arm-none-eabi-size   011_Interrupt_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+    760	      8	   1568	   2336	    920	011_Interrupt_test.elf
+Finished building: default.size.stdout
+ 
 
-17:35:42 Build Failed. 2 errors, 1 warnings. (took 522ms)
+18:09:10 Build Finished. 0 errors, 0 warnings. (took 414ms)
 

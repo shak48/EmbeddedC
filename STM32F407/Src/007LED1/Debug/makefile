@@ -59,8 +59,8 @@ all: main-build
 main-build: 007LED1.elf secondary-outputs
 
 # Tool invocations
-007LED1.elf: $(OBJS) $(USER_OBJS) /home/shak48/Documents/shak48-repos/EmbeddedC/STM32F407/src/007LED1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "007LED1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/shak48/Documents/shak48-repos/EmbeddedC/STM32F407/src/007LED1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="007LED1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+007LED1.elf: $(OBJS) $(USER_OBJS) /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/007LED1/STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "007LED1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/007LED1/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="007LED1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

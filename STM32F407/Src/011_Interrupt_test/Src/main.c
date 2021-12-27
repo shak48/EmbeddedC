@@ -10,7 +10,7 @@
 int main(void)
 {
 	int32_t *pRCC = (int32_t*)0x40023830, *pGPIOA = (int32_t*) GPIOA;
-	int32_t *pGPIOA_PUPDR = (int32_t*) (GPIOA+0x30);
+	//int32_t *pGPIOA_PUPDR = (int32_t*) (GPIOA+0x30);
 	*pRCC |= (1<<0);
 	*pRCC |= (1<<3);
 

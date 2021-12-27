@@ -1,4 +1,4 @@
-10:40:19 **** Incremental Build of configuration Debug for project 001HellowWorld ****
+18:09:07 **** Incremental Build of configuration Debug for project 001HellowWorld ****
 make -j8 all 
 arm-none-eabi-size   001HellowWorld.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   001HellowWorld.elf
 Finished building: default.size.stdout
  
 
-10:40:20 Build Finished. 0 errors, 0 warnings. (took 465ms)
+18:09:08 Build Finished. 0 errors, 0 warnings. (took 514ms)
 
