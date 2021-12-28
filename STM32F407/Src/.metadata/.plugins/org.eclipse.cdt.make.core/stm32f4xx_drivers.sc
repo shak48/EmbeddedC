@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
+        
     <instance id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1398051656;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1398051656.704045365;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1229163616.948568604;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.354886648">
+                
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
             <includePath path="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
             <includePath path="/usr/local/include"/>
@@ -372,8 +374,11 @@
             <definedSymbol symbol="__STDC_IEC_559_COMPLEX__=1"/>
             <definedSymbol symbol="__STDC_ISO_10646__=201706L"/>
         </collector>
+            
     </instance>
+        
     <instance id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1398051656;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1398051656.697183852;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1229163616.1283208022;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1930233929">
+                
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
             <includePath path="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
             <includePath path="/usr/local/include"/>
@@ -745,8 +750,11 @@
             <definedSymbol symbol="__STDC_IEC_559_COMPLEX__=1"/>
             <definedSymbol symbol="__STDC_ISO_10646__=201706L"/>
         </collector>
+            
     </instance>
+        
     <instance id="com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1398051656;com.st.stm32cube.ide.mcu.gnu.managedbuild.config.exe.debug.1398051656.722418881;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.1229163616.1735757010;com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.1628804035">
+                
         <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
             <includePath path="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
             <includePath path="/usr/local/include"/>
@@ -1118,5 +1126,7 @@
             <definedSymbol symbol="__STDC_IEC_559_COMPLEX__=1"/>
             <definedSymbol symbol="__STDC_ISO_10646__=201706L"/>
         </collector>
+            
     </instance>
+    
 </scannerInfo>

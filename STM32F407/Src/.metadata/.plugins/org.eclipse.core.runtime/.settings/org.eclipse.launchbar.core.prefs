@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_PeriClock2,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009LED_Toggle_Bitfield,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_Interrupt_test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f4xx_drivers,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001HellowWorld Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:007LED1,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008Input
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_PeriClock2,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:009LED_Toggle_Bitfield,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_Interrupt_test,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001HellowWorld Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:007LED1,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:008Input,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f4xx_drivers,org.eclipse.launchbar.core.descriptorType.default\:stm32f4xx_drivers Debug,org.eclipse.launchbar.core.descriptorType.default\:stm32f4xx_drivers Debug (1),org.eclipse.launchbar.core.descriptorType.default\:stm32f4xx_drivers Debug (2)
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001HellowWorld\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:001HellowWorld\ Debug/activeLaunchTarget=null\:---
@@ -9,5 +9,6 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_PeriClock2/activeLaunchMode
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:004_PeriClock2/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_Interrupt_test/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:011_Interrupt_test/activeLaunchTarget=null\:---
-org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f4xx_drivers/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f4xx_drivers/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:stm32f4xx_drivers/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:stm32f4xx_drivers\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

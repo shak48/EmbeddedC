@@ -1,9 +1,11 @@
 #include <stdint.h>
 #include <string.h>
+#include <stdio.h>
 
 #include "stm32f407xx_gpio_driver.h"
 #include "stm32f407xx_spi_driver.h"
 
+extern void initialise_monitor_handles(void);
 
 void SPI1_GPIOInit(void)
 {
@@ -113,9 +115,10 @@ void SPI2_Inits(void)
 
 
 int main(void){
+	initialise_monitor_handles();	//Using same chip as Master and Slave. SPI1->PortA is Master and SPI2->PortB+C are
 
-	//Using same chip as Master and Slave. SPI1->PortA is Master and SPI2->PortB+C are
 	char usrData[]= "Sending Data over SPI1.";
+	printf("Demo test\n");
 
 	SPI1_GPIOInit();
 
@@ -141,6 +144,10 @@ int main(void){
 	SPI_Peri_Control(SPI1, DISABLE);
 
 
-	for(;;);
+	while(1)
+	{
+		printf("Demo test");
+	}
+
 }
 

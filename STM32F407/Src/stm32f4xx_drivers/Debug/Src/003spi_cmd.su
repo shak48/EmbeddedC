@@ -1,5 +1,5 @@
-003spi_cmd.c:8:6:SPI1_GPIOInit	24	static
-003spi_cmd.c:37:6:SPI1_Inits	24	static
-003spi_cmd.c:64:6:SPI2_GPIOInit	24	static
-003spi_cmd.c:96:6:SPI2_Inits	24	static
-003spi_cmd.c:115:5:main	40	static
+003spi_cmd.c:10:6:SPI1_GPIOInit	24	static
+003spi_cmd.c:39:6:SPI1_Inits	24	static
+003spi_cmd.c:66:6:SPI2_GPIOInit	24	static
+003spi_cmd.c:98:6:SPI2_Inits	24	static
+003spi_cmd.c:117:5:main	40	static

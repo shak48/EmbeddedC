@@ -2,5 +2,3 @@
 "./Drivers/Src/stm32f407xx_spi_driver.o"
 "./Src/003spi_cmd.o"
 "./Startup/startup_stm32f407vgtx.o"
-"./Startup/syscalls.o"
-"./Startup/sysmem.o"
