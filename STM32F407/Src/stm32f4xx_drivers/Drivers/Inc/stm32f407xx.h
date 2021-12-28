@@ -61,9 +61,8 @@
 #define IRQ_NO_SPI2 					36
 #define IRQ_NO_SPI3 					51
 #define IRQ_NO_SPI4 					84
-#define IRQ_NO_SPI5 					92
-#define IRQ_NO_SPI6 					93
-
+#define IRQ_NO_SPI5 					85
+#define IRQ_NO_SPI6 					86
 
 
 #define NVIC_IRQ_PRIO00		0
