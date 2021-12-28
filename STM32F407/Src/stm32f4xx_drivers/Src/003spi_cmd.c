@@ -30,9 +30,6 @@ void SPI1_GPIOInit(void)
 	SPIPins.GPIO_PinConfig.GPIO_PinNumber = GPOIO_PIN_NO_7;
 	GPIO_Init(&SPIPins);
 
-	//comment
-	//more comments.
-	//more and more comments
 
 }
 
