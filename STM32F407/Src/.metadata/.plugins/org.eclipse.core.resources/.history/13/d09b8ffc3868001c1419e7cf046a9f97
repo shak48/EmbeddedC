@@ -7,7 +7,6 @@
 
 #include "stm32f407xx_i2c_driver.h"
 
-
 // init deinit
 void SPI_PCLK_Control(SPI_RegDef_t *pSPIx, uint8_t En_Or_Di)
 {

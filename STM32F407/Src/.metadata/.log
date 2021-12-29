@@ -3248,3 +3248,33 @@ java.lang.IllegalStateException: Call stack for thread main
 	at app//org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at app//org.eclipse.equinox.launcher.Main.run(Main.java:1461)
 	at app//org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+!SESSION 2021-12-28 17:12:46.448 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-12-28 17:12:52.745
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-12-28 17:12:52.819
+!MESSAGE Log4j initialized with config file /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-12-28 17:12:58.740
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2021-12-28 17:17:04.199 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2021-12-28 17:17:16.589
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2021-12-28 17:17:16.643
+!MESSAGE Log4j initialized with config file /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-12-28 17:17:22.685
+!MESSAGE Started RMI Server, listening on port 41337

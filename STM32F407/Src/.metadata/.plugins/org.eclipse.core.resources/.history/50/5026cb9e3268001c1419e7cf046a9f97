@@ -5,11 +5,10 @@
  *      Author: shak48
  */
 
+#include <stm32f407xx.h>
+
 #ifndef INC_STM32F407XX_SPI_DRIVER_H_
 #define INC_STM32F407XX_SPI_DRIVER_H_
-
-#include "stm32f407xx.h"
-
 
 typedef struct
 {
@@ -20,37 +19,37 @@ typedef struct
 	uint8_t SPI_CPHA;
 	uint8_t SPI_CPOL;
 	uint8_t SPI_SSM;
-}SPI_Config_t;
+}I2C_Config_t;
 
 typedef struct
 {
-	SPI_RegDef_t 	*pSPIx;
-	SPI_Config_t 	SPI_Config;
+	I2C_RegDef_t 	*pI2Cx;
+	I2C_Config_t 	I2C_Config;
 	uint8_t			*pTxBuffer;
 	uint8_t			*pRxBuffer;
 	uint32_t		TxLen;
 	uint32_t		RxLen;
 	uint32_t		TxState;
 	uint32_t		RxState;
-}SPI_Handle_t;
+}I2C_Handle_t;
 
 
 //bit pos definituon for spi cr1
 
-#define SPI_CR1_CPHA		0
-#define SPI_CR1_CPOL		1
-#define SPI_CR1_MSTR		2
-#define SPI_CR1_BR			3
-#define SPI_CR1_SPE			6
-#define SPI_CR1_LSB			7
-#define SPI_CR1_SSI			8
-#define SPI_CR1_SSM			9
-#define SPI_CR1_RXONLY		10
-#define SPI_CR1_DFF			11
-#define SPI_CR1_CRCNEXT		12
-#define SPI_CR1_CRCEN		13
-#define SPI_CR1_BIDIOE		14
-#define SPI_CR1_BIDIMODE	15
+#define I2C_CR1_PE			0
+#define I2C_CR1_SMBUS		1
+#define I2C_CR1_SMBTYPE		3
+#define I2C_CR1_ENARP		4
+#define I2C_CR1_ENPEC		5
+#define I2C_CR1_ENGC		6
+#define I2C_CR1_NOSTRETCH	7
+#define I2C_CR1_START		8
+#define I2C_CR1_STOP		9
+#define I2C_CR1_ACK			10
+#define I2C_CR1_POS			11
+#define I2C_CR1_PEC			12
+#define I2C_CR1_ALERT		13
+#define SPI_CR1_SWRST		15
 
 
 //bit definition mcro for cr2
