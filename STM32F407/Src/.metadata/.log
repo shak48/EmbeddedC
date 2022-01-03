@@ -3278,3 +3278,31 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2021-12-28 17:17:22.685
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-01-03 18:56:36.359 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-01-03 18:56:42.057
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-01-03 18:56:42.155
+!MESSAGE Log4j initialized with config file /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/.metadata/.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-01-03 18:56:49.866
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2022-01-03 18:57:33.242
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/FreeRtos_Projects/Debug/FreeRtos_Projects.elfdo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:84)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:914)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1256)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-01-03 18:57:38.038
+!MESSAGE Indexed 'FreeRtos_Projects' (30 sources, 122 headers) in 8.57 sec: 10,904 declarations; 53,077 references; 2 unresolved inclusions; 151 syntax errors; 149 unresolved names (0.23%)
