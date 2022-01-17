@@ -1,23 +1,285 @@
-19:16:43 **** Build of configuration Debug for project stm32f4xx_drivers ****
+16:49:01 **** Incremental Build of configuration Debug for project stm32f4xx_drivers ****
 make -j8 all 
-arm-none-eabi-gcc -mcpu=cortex-m4 -g -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Startup/startup_stm32f407vgtx.d" -MT"Startup/startup_stm32f407vgtx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Startup/startup_stm32f407vgtx.o" "../Startup/startup_stm32f407vgtx.s"
 arm-none-eabi-gcc "../Src/003spi_cmd.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/003spi_cmd.d" -MT"Src/003spi_cmd.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/003spi_cmd.o"
 arm-none-eabi-gcc "../Drivers/Src/stm32f407xx_gpio_driver.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/Src/stm32f407xx_gpio_driver.d" -MT"Drivers/Src/stm32f407xx_gpio_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/stm32f407xx_gpio_driver.o"
+arm-none-eabi-gcc "../Drivers/Src/stm32f407xx_i2c_driver.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/Src/stm32f407xx_i2c_driver.d" -MT"Drivers/Src/stm32f407xx_i2c_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/stm32f407xx_i2c_driver.o"
 arm-none-eabi-gcc "../Drivers/Src/stm32f407xx_spi_driver.c" -mcpu=cortex-m4 -std=gnu11 -g -DDEBUG -DSTM32 -DSTM32F407G_DISC1 -DSTM32F4 -DSTM32F407VGTx -c -I../Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/Src/stm32f407xx_spi_driver.d" -MT"Drivers/Src/stm32f407xx_spi_driver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/Src/stm32f407xx_spi_driver.o"
-arm-none-eabi-gcc -o "stm32f4xx_drivers.elf" @"objects.list"  -lrdimon -mcpu=cortex-m4 -T"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="stm32f4xx_drivers.map" -Wl,--gc-sections -static -specs=rdimon.specs --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: stm32f4xx_drivers.elf
- 
-arm-none-eabi-size   stm32f4xx_drivers.elf 
-arm-none-eabi-objdump -h -S  stm32f4xx_drivers.elf  > "stm32f4xx_drivers.list"
-arm-none-eabi-objcopy  -O binary  stm32f4xx_drivers.elf  "stm32f4xx_drivers.bin"
-   text	   data	    bss	    dec	    hex	filename
-   8868	    120	   1768	  10756	   2a04	stm32f4xx_drivers.elf
-Finished building: default.size.stdout
- 
-Finished building: stm32f4xx_drivers.bin
- 
-Finished building: stm32f4xx_drivers.list
- 
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Src/003spi_cmd.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:67:9: warning: ISO C99 requires whitespace after the macro name
+   67 | #define I2C_CR2_FREQ[5]  0
+      |         ^~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_i2c_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:67:9: warning: ISO C99 requires whitespace after the macro name
+   67 | #define I2C_CR2_FREQ[5]  0
+      |         ^~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: error: conflicting types for 'spi_txne_interrupt_handle'
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_i2c_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:136:13: note: previous declaration of 'spi_txne_interrupt_handle' was here
+  136 | static void spi_txne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: error: conflicting types for 'spi_txne_interrupt_handle'
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_i2c_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: error: conflicting types for 'spi_rxne_interrupt_handle'
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_i2c_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:137:13: note: previous declaration of 'spi_rxne_interrupt_handle' was here
+  137 | static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_i2c_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: error: conflicting types for 'spi_ovr_interrupt_handle'
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Src/003spi_cmd.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:136:13: note: previous declaration of 'spi_txne_interrupt_handle' was here
+  136 | static void spi_txne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_i2c_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:138:13: note: previous declaration of 'spi_ovr_interrupt_handle' was here
+  138 | static void spi_ovr_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Src/003spi_cmd.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: error: conflicting types for 'spi_rxne_interrupt_handle'
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Src/003spi_cmd.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:137:13: note: previous declaration of 'spi_rxne_interrupt_handle' was here
+  137 | static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Src/003spi_cmd.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: error: conflicting types for 'spi_ovr_interrupt_handle'
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Src/003spi_cmd.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:138:13: note: previous declaration of 'spi_ovr_interrupt_handle' was here
+  138 | static void spi_ovr_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_i2c_driver.c: In function 'I2C_PCLK_Control':
+../Drivers/Src/stm32f407xx_i2c_driver.c:17:15: error: 'I2C1' undeclared (first use in this function)
+   17 |   if(pI2Cx == I2C1)
+      |               ^~~~
+../Drivers/Src/stm32f407xx_i2c_driver.c:17:15: note: each undeclared identifier is reported only once for each function it appears in
+../Drivers/Src/stm32f407xx_i2c_driver.c:21:20: error: 'I2C2' undeclared (first use in this function)
+   21 |   else if(pI2Cx == I2C2)
+      |                    ^~~~
+../Drivers/Src/stm32f407xx_i2c_driver.c:25:20: error: 'I2C3' undeclared (first use in this function)
+   25 |   else if(pI2Cx == I2C3)
+      |                    ^~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Src/003spi_cmd.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: warning: 'spi_txne_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: warning: 'spi_rxne_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: warning: 'spi_ovr_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_i2c_driver.c:67:13: error: invalid storage class for function 'spi_txne_interrupt_handle'
+   67 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_i2c_driver.c:68:13: error: invalid storage class for function 'spi_rxne_interrupt_handle'
+   68 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_i2c_driver.c:69:13: error: invalid storage class for function 'spi_ovr_interrupt_handle'
+   69 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_i2c_driver.c:75:1: error: expected declaration or statement at end of input
+   75 | void I2C_Application_Event_CallBack(I2C_Handle_t *I2CHandle, uint8_t Event);
+      | ^~~~
+In file included from ../Drivers/Src/stm32f407xx_i2c_driver.c:8:
+../Drivers/Src/stm32f407xx_i2c_driver.c: At top level:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: warning: 'spi_txne_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: warning: 'spi_rxne_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: warning: 'spi_ovr_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_gpio_driver.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:67:9: warning: ISO C99 requires whitespace after the macro name
+   67 | #define I2C_CR2_FREQ[5]  0
+      |         ^~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:67:9: warning: ISO C99 requires whitespace after the macro name
+   67 | #define I2C_CR2_FREQ[5]  0
+      |         ^~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: error: conflicting types for 'spi_txne_interrupt_handle'
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_gpio_driver.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:136:13: note: previous declaration of 'spi_txne_interrupt_handle' was here
+  136 | static void spi_txne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: error: conflicting types for 'spi_txne_interrupt_handle'
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_gpio_driver.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: error: conflicting types for 'spi_rxne_interrupt_handle'
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_gpio_driver.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:137:13: note: previous declaration of 'spi_rxne_interrupt_handle' was here
+  137 | static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:136:13: note: previous declaration of 'spi_txne_interrupt_handle' was here
+  136 | static void spi_txne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_gpio_driver.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: error: conflicting types for 'spi_ovr_interrupt_handle'
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: error: conflicting types for 'spi_rxne_interrupt_handle'
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_gpio_driver.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:138:13: note: previous declaration of 'spi_ovr_interrupt_handle' was here
+  138 | static void spi_ovr_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:137:13: note: previous declaration of 'spi_rxne_interrupt_handle' was here
+  137 | static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: error: conflicting types for 'spi_ovr_interrupt_handle'
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:472,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_spi_driver.h:138:13: note: previous declaration of 'spi_ovr_interrupt_handle' was here
+  138 | static void spi_ovr_interrupt_handle(SPI_Handle_t *pSPIx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Drivers/Src/subdir.mk:25: Drivers/Src/stm32f407xx_i2c_driver.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Src/subdir.mk:19: Src/003spi_cmd.o] Error 1
+../Drivers/Src/stm32f407xx_spi_driver.c: In function 'SPI_IRQHandling':
+../Drivers/Src/stm32f407xx_spi_driver.c:302:29: warning: passing argument 1 of 'spi_txne_interrupt_handle' from incompatible pointer type [-Wincompatible-pointer-types]
+  302 |   spi_txne_interrupt_handle(pSPIHandle);
+      |                             ^~~~~~~~~~
+      |                             |
+      |                             SPI_Handle_t * {aka struct <anonymous> *}
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:53: note: expected 'I2C_Handle_t *' {aka 'struct <anonymous> *'} but argument is of type 'SPI_Handle_t *' {aka 'struct <anonymous> *'}
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |                                       ~~~~~~~~~~~~~~^~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c:311:29: warning: passing argument 1 of 'spi_rxne_interrupt_handle' from incompatible pointer type [-Wincompatible-pointer-types]
+  311 |   spi_rxne_interrupt_handle(pSPIHandle);
+      |                             ^~~~~~~~~~
+      |                             |
+      |                             SPI_Handle_t * {aka struct <anonymous> *}
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:53: note: expected 'I2C_Handle_t *' {aka 'struct <anonymous> *'} but argument is of type 'SPI_Handle_t *' {aka 'struct <anonymous> *'}
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |                                       ~~~~~~~~~~~~~~^~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c:319:28: warning: passing argument 1 of 'spi_ovr_interrupt_handle' from incompatible pointer type [-Wincompatible-pointer-types]
+  319 |   spi_ovr_interrupt_handle(pSPIHandle);
+      |                            ^~~~~~~~~~
+      |                            |
+      |                            SPI_Handle_t * {aka struct <anonymous> *}
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:52: note: expected 'I2C_Handle_t *' {aka 'struct <anonymous> *'} but argument is of type 'SPI_Handle_t *' {aka 'struct <anonymous> *'}
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |                                      ~~~~~~~~~~~~~~^~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c: At top level:
+../Drivers/Src/stm32f407xx_spi_driver.c:324:13: error: conflicting types for 'spi_txne_interrupt_handle'
+  324 | static void spi_txne_interrupt_handle(SPI_Handle_t *pSPIHandle)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: note: previous declaration of 'spi_txne_interrupt_handle' was here
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c:349:13: error: conflicting types for 'spi_rxne_interrupt_handle'
+  349 | static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIHandle)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: note: previous declaration of 'spi_rxne_interrupt_handle' was here
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c:374:13: error: conflicting types for 'spi_ovr_interrupt_handle'
+  374 | static void spi_ovr_interrupt_handle(SPI_Handle_t *pSPIHandle)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../Drivers/Src/stm32f407xx_spi_driver.c:8:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: note: previous declaration of 'spi_ovr_interrupt_handle' was here
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx.h:473,
+                 from /home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_gpio_driver.h:12,
+                 from ../Drivers/Src/stm32f407xx_gpio_driver.c:5:
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: warning: 'spi_txne_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: warning: 'spi_rxne_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: warning: 'spi_ovr_interrupt_handle' declared 'static' but never defined [-Wunused-function]
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:157:13: warning: 'spi_txne_interrupt_handle' used but never defined
+  157 | static void spi_txne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:158:13: warning: 'spi_rxne_interrupt_handle' used but never defined
+  158 | static void spi_rxne_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/stm32f4xx_drivers/Drivers/Inc/stm32f407xx_i2c_driver.h:159:13: warning: 'spi_ovr_interrupt_handle' used but never defined
+  159 | static void spi_ovr_interrupt_handle(I2C_Handle_t *pI2Cx);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c:374:13: warning: 'spi_ovr_interrupt_handle' defined but not used [-Wunused-function]
+  374 | static void spi_ovr_interrupt_handle(SPI_Handle_t *pSPIHandle)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c:349:13: warning: 'spi_rxne_interrupt_handle' defined but not used [-Wunused-function]
+  349 | static void spi_rxne_interrupt_handle(SPI_Handle_t *pSPIHandle)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Drivers/Src/stm32f407xx_spi_driver.c:324:13: warning: 'spi_txne_interrupt_handle' defined but not used [-Wunused-function]
+  324 | static void spi_txne_interrupt_handle(SPI_Handle_t *pSPIHandle)
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+make: *** [Drivers/Src/subdir.mk:25: Drivers/Src/stm32f407xx_spi_driver.o] Error 1
+make: *** [Drivers/Src/subdir.mk:25: Drivers/Src/stm32f407xx_gpio_driver.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
 
-19:16:44 Build Finished. 0 errors, 0 warnings. (took 527ms)
+16:49:01 Build Failed. 27 errors, 22 warnings. (took 621ms)
 

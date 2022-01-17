@@ -1,0 +1,13 @@
+#include "main.h"
+
+void led_effect_stop(void) {
+
+	for (int i; i < 4; i++) {
+		xTimerStop(led_timer_handle[i], portMAX_DELAY);
+	}
+}
+void led_effect(int eff) {
+
+	led_effect_stop();
+	xTimerStart(led_task_handle[eff - 1], portMAX_DELAY);
+}

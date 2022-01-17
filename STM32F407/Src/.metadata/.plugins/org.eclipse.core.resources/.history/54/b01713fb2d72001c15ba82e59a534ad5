@@ -1,0 +1,38 @@
+#include "main.h"
+
+void menu_task(void *parameters) {
+	while (1) {
+
+	}
+}
+void cmd_task(void *parameters) {
+	while (1) {
+
+	}
+}
+void print_task(void *parameters) {
+	while (1) {
+
+	}
+}
+void led_task(void *parameters) {
+	while (1) {
+
+	}
+}
+void rtc_task(void *parameters) {
+	while (1) {
+
+	}
+}
+
+//
+//void led_green_handler(void* parameters)
+//{
+//	TickType_t last_wakwup_time=xTaskGetTickCount();
+//	while(1)
+//	{
+//		HAL_GPIO_TogglePin(GPIOD, LD4_Pin);
+//		vTaskDelayUntil(&last_wakwup_time,pdMS_TO_TICKS(1000) );
+////		SEGGER_SYSVIEW_PrintfTarget("Green Led toggled");
+

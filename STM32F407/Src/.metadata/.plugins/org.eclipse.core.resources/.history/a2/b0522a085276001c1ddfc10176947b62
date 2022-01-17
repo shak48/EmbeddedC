@@ -1,0 +1,19 @@
+#include "main.h"
+
+void led_effect_stop(void) {
+
+	for (int i; i < 4; i++) {
+		xTimerStop(led_timer_handle[i], portMAX_DELAY);
+	}
+}
+void led_effect(int eff) {
+
+	led_effect_stop();
+	xTimerStart(led_task_handle[eff - 1], portMAX_DELAY);
+}
+
+void LED_effect1(void) {
+
+	static int flag = 1;
+	(flag ^= 1) ? turn_off_all_leds() : turn_on_all_leds();
+}

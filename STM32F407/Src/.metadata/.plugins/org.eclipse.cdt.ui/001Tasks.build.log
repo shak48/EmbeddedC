@@ -1,0 +1,306 @@
+11:15:02 **** Incremental Build of configuration Debug for project 001Tasks ****
+make -j8 all 
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/portable/MemMang/heap_4.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/portable/MemMang/heap_4.d" -MT"ThirdParty/FreeRTOS/portable/MemMang/heap_4.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/portable/MemMang/heap_4.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.d" -MT"ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/croutine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/croutine.d" -MT"ThirdParty/FreeRTOS/croutine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/croutine.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/event_groups.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/event_groups.d" -MT"ThirdParty/FreeRTOS/event_groups.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/event_groups.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/list.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/list.d" -MT"ThirdParty/FreeRTOS/list.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/list.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/queue.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/queue.d" -MT"ThirdParty/FreeRTOS/queue.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/queue.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/stream_buffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/stream_buffer.d" -MT"ThirdParty/FreeRTOS/stream_buffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/stream_buffer.o"
+arm-none-eabi-gcc "../ThirdParty/FreeRTOS/tasks.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/OS" -I"/home/shak48/Documents/local-repo/EmbeddedC/STM32F407/Src/001Tasks/ThirdParty/SEGGER/Config" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"ThirdParty/FreeRTOS/tasks.d" -MT"ThirdParty/FreeRTOS/tasks.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "ThirdParty/FreeRTOS/tasks.o"
+In file included from ../ThirdParty/FreeRTOS/croutine.c:29:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:33:6: error: #error "include FreeRTOS.h must appear in source files before include croutine.h"
+   33 |     #error "include FreeRTOS.h must appear in source files before include croutine.h"
+      |      ^~~~~
+In file included from ../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:36,
+                 from ../ThirdParty/FreeRTOS/croutine.c:29:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:62:6: error: #error "FreeRTOS.h must be included before list.h"
+   62 |     #error "FreeRTOS.h must be included before list.h"
+      |      ^~~~~
+In file included from ../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:36,
+                 from ../ThirdParty/FreeRTOS/croutine.c:29:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:147:25: error: unknown type name 'TickType_t'
+  147 |     configLIST_VOLATILE TickType_t xItemValue;          /*< The value being listed.  In most cases this is used to sort the list in ascending order. */
+      |                         ^~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:159:25: error: unknown type name 'TickType_t'
+  159 |     configLIST_VOLATILE TickType_t xItemValue;
+      |                         ^~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:171:14: error: unknown type name 'UBaseType_t'
+  171 |     volatile UBaseType_t uxNumberOfItems;
+      |              ^~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h: In function 'vListInitialise':
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:429:47: error: expected declaration specifiers before 'PRIVILEGED_FUNCTION'
+  429 | void vListInitialise( List_t * const pxList ) PRIVILEGED_FUNCTION;
+      |                                               ^~~~~~~~~~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:440:55: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'PRIVILEGED_FUNCTION'
+  440 | void vListInitialiseItem( ListItem_t * const pxItem ) PRIVILEGED_FUNCTION;
+      |                                                       ^~~~~~~~~~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:454:54: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'PRIVILEGED_FUNCTION'
+  454 |                   ListItem_t * const pxNewListItem ) PRIVILEGED_FUNCTION;
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:476:57: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'PRIVILEGED_FUNCTION'
+  476 |                      ListItem_t * const pxNewListItem ) PRIVILEGED_FUNCTION;
+      |                                                         ^~~~~~~~~~~~~~~~~~~
+In file included from ../ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.c:34:
+../ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/../../../../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:491:1: error: unknown type name 'UBaseType_t'
+  491 | UBaseType_t uxListRemove( ListItem_t * const pxItemToRemove ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/list.h:491:63: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'PRIVILEGED_FUNCTION'
+  491 | UBaseType_t uxListRemove( ListItem_t * const pxItemToRemove ) PRIVILEGED_FUNCTION;
+      |                                                               ^~~~~~~~~~~~~~~~~~~
+In file included from ../ThirdParty/FreeRTOS/croutine.c:29:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:47:16: error: storage class specified for parameter 'CoRoutineHandle_t'
+   47 | typedef void * CoRoutineHandle_t;
+      |                ^~~~~~~~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:50:17: error: storage class specified for parameter 'crCOROUTINE_CODE'
+   50 | typedef void (* crCOROUTINE_CODE)( CoRoutineHandle_t,
+      |                 ^~~~~~~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:51:36: warning: parameter names (without types) in function declaration
+   51 |                                    UBaseType_t );
+      |                                    ^~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:55:5: error: expected specifier-qualifier-list before 'crCOROUTINE_CODE'
+   55 |     crCOROUTINE_CODE pxCoRoutineFunction;
+      |     ^~~~~~~~~~~~~~~~
+In file included from ../ThirdParty/FreeRTOS/croutine.c:29:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:61:3: error: storage class specified for parameter 'CRCB_t'
+   61 | } CRCB_t;                        /* Co-routine control block.  Note must be identical in size down to uxPriority with TCB_t. */
+      |   ^~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:136:1: error: unknown type name 'BaseType_t'
+  136 | BaseType_t xCoRoutineCreate( crCOROUTINE_CODE pxCoRoutineCode,
+      | ^~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:136:30: error: expected declaration specifiers or '...' before 'crCOROUTINE_CODE'
+  136 | BaseType_t xCoRoutineCreate( crCOROUTINE_CODE pxCoRoutineCode,
+      |                              ^~~~~~~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:137:30: error: unknown type name 'UBaseType_t'
+  137 |                              UBaseType_t uxPriority,
+      |                              ^~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:138:30: error: unknown type name 'UBaseType_t'
+  138 |                              UBaseType_t uxIndex );
+      |                              ^~~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:735:34: error: unknown type name 'TickType_t'
+  735 | void vCoRoutineAddToDelayedList( TickType_t xTicksToDelay,
+      |                                  ^~~~~~~~~~
+../ThirdParty/FreeRTOS/../FreeRTOS/include/croutine.h:745:1: error: unknown type name 'BaseType_t'
+  745 | BaseType_t xCoRoutineRemoveFromEventList( const List_t * pxEventList );
+      | ^~~~~~~~~~
+In file included from ../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:35,
+                 from ../ThirdParty/FreeRTOS/croutine.c:31:
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h:143:26: error: storage class specified for parameter 'ptrdiff_t'
+  143 | typedef __PTRDIFF_TYPE__ ptrdiff_t;
+      |                          ^~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h:209:23: error: storage class specified for parameter 'size_t'
+  209 | typedef __SIZE_TYPE__ size_t;
+      |                       ^~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h:321:24: error: storage class specified for parameter 'wchar_t'
+  321 | typedef __WCHAR_TYPE__ wchar_t;
+      |                        ^~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h:426:3: error: storage class specified for parameter 'max_align_t'
+  426 | } max_align_t;
+      |   ^~~~~~~~~~~
+In file included from /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:12,
+                 from /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h:9,
+                 from ../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:50,
+                 from ../ThirdParty/FreeRTOS/croutine.c:31:
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:41:23: error: storage class specified for parameter '__int8_t'
+   41 | typedef __INT8_TYPE__ __int8_t;
+      |                       ^~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:43:24: error: storage class specified for parameter '__uint8_t'
+   43 | typedef __UINT8_TYPE__ __uint8_t;
+      |                        ^~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:55:24: error: storage class specified for parameter '__int16_t'
+   55 | typedef __INT16_TYPE__ __int16_t;
+      |                        ^~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:57:25: error: storage class specified for parameter '__uint16_t'
+   57 | typedef __UINT16_TYPE__ __uint16_t;
+      |                         ^~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:77:24: error: storage class specified for parameter '__int32_t'
+   77 | typedef __INT32_TYPE__ __int32_t;
+      |                        ^~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:79:25: error: storage class specified for parameter '__uint32_t'
+   79 | typedef __UINT32_TYPE__ __uint32_t;
+      |                         ^~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:103:24: error: storage class specified for parameter '__int64_t'
+  103 | typedef __INT64_TYPE__ __int64_t;
+      |                        ^~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:105:25: error: storage class specified for parameter '__uint64_t'
+  105 | typedef __UINT64_TYPE__ __uint64_t;
+      |                         ^~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:134:29: error: storage class specified for parameter '__int_least8_t'
+  134 | typedef __INT_LEAST8_TYPE__ __int_least8_t;
+      |                             ^~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:136:30: error: storage class specified for parameter '__uint_least8_t'
+  136 | typedef __UINT_LEAST8_TYPE__ __uint_least8_t;
+      |                              ^~~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:160:30: error: storage class specified for parameter '__int_least16_t'
+  160 | typedef __INT_LEAST16_TYPE__ __int_least16_t;
+      |                              ^~~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:162:31: error: storage class specified for parameter '__uint_least16_t'
+  162 | typedef __UINT_LEAST16_TYPE__ __uint_least16_t;
+      |                               ^~~~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:182:30: error: storage class specified for parameter '__int_least32_t'
+  182 | typedef __INT_LEAST32_TYPE__ __int_least32_t;
+      |                              ^~~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:184:31: error: storage class specified for parameter '__uint_least32_t'
+  184 | typedef __UINT_LEAST32_TYPE__ __uint_least32_t;
+      |                               ^~~~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:200:30: error: storage class specified for parameter '__int_least64_t'
+  200 | typedef __INT_LEAST64_TYPE__ __int_least64_t;
+      |                              ^~~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:202:31: error: storage class specified for parameter '__uint_least64_t'
+  202 | typedef __UINT_LEAST64_TYPE__ __uint_least64_t;
+      |                               ^~~~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:214:25: error: storage class specified for parameter '__intmax_t'
+  214 | typedef __INTMAX_TYPE__ __intmax_t;
+      |                         ^~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:222:26: error: storage class specified for parameter '__uintmax_t'
+  222 | typedef __UINTMAX_TYPE__ __uintmax_t;
+      |                          ^~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:230:25: error: storage class specified for parameter '__intptr_t'
+  230 | typedef __INTPTR_TYPE__ __intptr_t;
+      |                         ^~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/machine/_default_types.h:232:26: error: storage class specified for parameter '__uintptr_t'
+  232 | typedef __UINTPTR_TYPE__ __uintptr_t;
+      |                          ^~~~~~~~~~~
+In file included from /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:14,
+                 from /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h:9,
+                 from ../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:50,
+                 from ../ThirdParty/FreeRTOS/croutine.c:31:
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:20:18: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int8_t'
+   20 | typedef __int8_t int8_t ;
+      |                  ^~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:24:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint8_t'
+   24 | typedef __uint8_t uint8_t ;
+      |                   ^~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:32:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int16_t'
+   32 | typedef __int16_t int16_t ;
+      |                   ^~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:36:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint16_t'
+   36 | typedef __uint16_t uint16_t ;
+      |                    ^~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:44:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int32_t'
+   44 | typedef __int32_t int32_t ;
+      |                   ^~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:48:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint32_t'
+   48 | typedef __uint32_t uint32_t ;
+      |                    ^~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:56:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int64_t'
+   56 | typedef __int64_t int64_t ;
+      |                   ^~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:60:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint64_t'
+   60 | typedef __uint64_t uint64_t ;
+      |                    ^~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:67:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'intmax_t'
+   67 | typedef __intmax_t intmax_t;
+      |                    ^~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:72:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uintmax_t'
+   72 | typedef __uintmax_t uintmax_t;
+      |                     ^~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:77:20: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'intptr_t'
+   77 | typedef __intptr_t intptr_t;
+      |                    ^~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/sys/_stdint.h:82:21: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uintptr_t'
+   82 | typedef __uintptr_t uintptr_t;
+      |                     ^~~~~~~~~
+In file included from /opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/lib/gcc/arm-none-eabi/9.3.1/include/stdint.h:9,
+                 from ../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:50,
+                 from ../ThirdParty/FreeRTOS/croutine.c:31:
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:21:24: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int_least8_t'
+   21 | typedef __int_least8_t int_least8_t;
+      |                        ^~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:22:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint_least8_t'
+   22 | typedef __uint_least8_t uint_least8_t;
+      |                         ^~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:27:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int_least16_t'
+   27 | typedef __int_least16_t int_least16_t;
+      |                         ^~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:28:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint_least16_t'
+   28 | typedef __uint_least16_t uint_least16_t;
+      |                          ^~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:33:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int_least32_t'
+   33 | typedef __int_least32_t int_least32_t;
+      |                         ^~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:34:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint_least32_t'
+   34 | typedef __uint_least32_t uint_least32_t;
+      |                          ^~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:39:25: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int_least64_t'
+   39 | typedef __int_least64_t int_least64_t;
+      |                         ^~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:40:26: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'uint_least64_t'
+   40 | typedef __uint_least64_t uint_least64_t;
+      |                          ^~~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:51:30: error: storage class specified for parameter 'int_fast8_t'
+   51 |   typedef __INT_FAST8_TYPE__ int_fast8_t;
+      |                              ^~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:52:31: error: storage class specified for parameter 'uint_fast8_t'
+   52 |   typedef __UINT_FAST8_TYPE__ uint_fast8_t;
+      |                               ^~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:61:31: error: storage class specified for parameter 'int_fast16_t'
+   61 |   typedef __INT_FAST16_TYPE__ int_fast16_t;
+      |                               ^~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:62:32: error: storage class specified for parameter 'uint_fast16_t'
+   62 |   typedef __UINT_FAST16_TYPE__ uint_fast16_t;
+      |                                ^~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:71:31: error: storage class specified for parameter 'int_fast32_t'
+   71 |   typedef __INT_FAST32_TYPE__ int_fast32_t;
+      |                               ^~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:72:32: error: storage class specified for parameter 'uint_fast32_t'
+   72 |   typedef __UINT_FAST32_TYPE__ uint_fast32_t;
+      |                                ^~~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:81:31: error: storage class specified for parameter 'int_fast64_t'
+   81 |   typedef __INT_FAST64_TYPE__ int_fast64_t;
+      |                               ^~~~~~~~~~~~
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/arm-none-eabi/include/stdint.h:82:32: error: storage class specified for parameter 'uint_fast64_t'
+   82 |   typedef __UINT_FAST64_TYPE__ uint_fast64_t;
+      |                                ^~~~~~~~~~~~~
+In file included from ../ThirdParty/FreeRTOS/croutine.c:31:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/croutine.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/subdir.mk:19: ThirdParty/FreeRTOS/portable/GCC/ARM_CM4F/port.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/stream_buffer.c:39:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/list.c:37:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/stream_buffer.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/queue.c:37:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/list.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/queue.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/event_groups.c:38:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/event_groups.o] Error 1
+In file included from ../ThirdParty/FreeRTOS/portable/MemMang/heap_4.c:44:
+../ThirdParty/FreeRTOS/portable/MemMang/../../../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ../ThirdParty/FreeRTOS/tasks.c:39:
+../ThirdParty/FreeRTOS/../FreeRTOS/include/FreeRTOS.h:59:10: fatal error: FreeRTOSConfig.h: No such file or directory
+   59 | #include "FreeRTOSConfig.h"
+      |          ^~~~~~~~~~~~~~~~~~
+compilation terminated.
+make: *** [ThirdParty/FreeRTOS/portable/MemMang/subdir.mk:19: ThirdParty/FreeRTOS/portable/MemMang/heap_4.o] Error 1
+make: *** [ThirdParty/FreeRTOS/subdir.mk:37: ThirdParty/FreeRTOS/tasks.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+11:15:03 Build Failed. 90 errors, 1 warnings. (took 523ms)
+

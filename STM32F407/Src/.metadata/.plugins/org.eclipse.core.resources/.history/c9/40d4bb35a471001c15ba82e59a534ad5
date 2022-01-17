@@ -1,0 +1,53 @@
+#include "task.h"
+
+extern void led_green_handler(void* parameters);
+extern void led_orange_handler(void* parameters);
+extern void led_red_handler(void* parameters);
+extern void led_blue_handler(void* parameters);
+
+
+
+void led_green_handler(void* parameters)
+{
+	TickType_t last_wakwup_time=xTaskGetTickCount();
+	while(1)
+	{
+		HAL_GPIO_TogglePin(GPIOD, LD4_Pin);
+		vTaskDelayUntil(&last_wakwup_time,pdMS_TO_TICKS(1000) );
+		SEGGER_SYSVIEW_PrintfTarget("Green Led toggled");
+
+	}
+}
+void led_orange_handler(void* parameters)
+{
+	TickType_t last_wakwup_time=xTaskGetTickCount();
+
+	while(1)
+	{
+		HAL_GPIO_TogglePin(GPIOD, LD3_Pin);
+		vTaskDelayUntil(&last_wakwup_time,pdMS_TO_TICKS(800) );
+		SEGGER_SYSVIEW_PrintfTarget("Orange Led toggled");
+	}
+}
+void led_red_handler(void* parameters)
+{
+	TickType_t last_wakwup_time=xTaskGetTickCount();
+	while(1)
+	{
+		HAL_GPIO_TogglePin(GPIOD, LD5_Pin);
+		vTaskDelayUntil(&last_wakwup_time,pdMS_TO_TICKS(600) );
+		SEGGER_SYSVIEW_PrintfTarget("Red Led toggled");
+	}
+}
+void led_blue_handler(void* parameters)
+{
+	TickType_t last_wakwup_time=xTaskGetTickCount();
+
+	while(1)
+	{
+		HAL_GPIO_TogglePin(GPIOD, LD6_Pin);
+		vTaskDelayUntil(&last_wakwup_time,pdMS_TO_TICKS(400) );
+		SEGGER_SYSVIEW_PrintfTarget("Blue Led toggled");
+
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;002TasksSegger/ThirdParty/FreeRtos&apos; to &apos;FreeRTOS&apos;" description="Rename resource &apos;FreeRtos&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ThirdParty/FreeRtos" name="FreeRTOS" stamp="1641485489470" updateReferences="true"/>
+</session>

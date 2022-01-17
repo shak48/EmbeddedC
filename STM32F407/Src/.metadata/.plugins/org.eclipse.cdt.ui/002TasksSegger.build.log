@@ -1,0 +1,10 @@
+10:49:53 **** Incremental Build of configuration Debug for project 002TasksSegger ****
+make -j8 all 
+arm-none-eabi-size   002TasksSegger.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30120	    128	  84648	 114896	  1c0d0	002TasksSegger.elf
+Finished building: default.size.stdout
+ 
+
+10:49:54 Build Finished. 0 errors, 0 warnings. (took 467ms)
+
